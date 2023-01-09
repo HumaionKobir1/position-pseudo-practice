@@ -1,10 +1,38 @@
 .swimming div{
-    border: 1px solid lightcoral;
     width: 200px;
 }
 
-#ring{
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: brown;
+    color: #FFF;
+}
+h2{
+    font-size: 30px;
+    background-color: hotpink;
+}
+
+#boy{
     position: relative;
-    left: 50px;
+    left: 210px;
+    top: -40px;
+}
+
+#ring{
+    
+    position: relative;
+    left: 200px;
     top: 100px;
+}
+
+#water{
+    position: absolute;
+    
+    left: 220px;
+    
+}
+#water img{
+    width: 140px;
 }
