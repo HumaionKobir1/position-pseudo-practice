@@ -5,15 +5,32 @@ h1{
     color: blueviolet;
 }
 h2:hover{
-    
+    text-align: center;
+    font-weight: 700;
+    background-color: antiquewhite;
+}
+a:visited{
+    color: darkmagenta;
 }
 
 input{
-    border: 2px solid gold;
+    border: 2px solid rgb(51, 0, 255);
     font-size: 15px;
+    margin-top: 10px;
+}
+.middle-person:focus{
+    font-weight: 700;
+    color: blueviolet;
 }
 
-ul li:nth-child(2n+1){
+li:first-child{
+    background-color: cornflowerblue;
+}
+li:last-child{
+    background-color: lightsalmon;
+}
+
+li:nth-child(2n+1){
     color:#FFF;
     background-color: brown;
     font-size: 25px;
@@ -22,7 +39,7 @@ ul li:nth-child(2n+1){
     font-style: italic;
     text-align: center;
 }
-ul li:nth-child(2n){
+li:nth-child(2n){
     color:#FFF;
     background-color: rgb(165, 42, 147);
     font-size: 25px;
@@ -32,14 +49,24 @@ ul li:nth-child(2n){
     text-align: center;
 }
 
-ul li:nth-child(2n):hover{
+li:nth-child(2n):hover{
     background-color: cornflowerblue;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
 }
-ul li:nth-child(2n + 1 ):hover{
+li:nth-child(2n + 1 ):hover{
     background-color: rgb(235, 237, 100);
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     color: black;
+}
+
+h2::before{
+    content: "Hello my name is Kobir. ";
+    color: midnightblue;
+}
+.special::after{
+    content: " This is my first content";
+    background-color: lightslategrey;
+    font-size: 25px;
 }
